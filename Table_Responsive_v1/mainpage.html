@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>covid-19 services | get contact number</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<style>
+    
+button {
+  font-size: 2em;
+  color: white;
+  display: block;
+  margin: 2em auto;
+  height: 80px;
+  background: cornflowerblue;
+  border: none;
+  position: relative;
+  width: 240px;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  box-shadow: 0 0 0.25em #333;
+  cursor: pointer;
+  outline: none;
+  /* mashed state */
+}
+button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 120px solid transparent;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  border-left-color: cornflowerblue;
+}
+button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 120px solid transparent;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  border-right-color: cornflowerblue;
+}
+button:active {
+  -webkit-transform: scale(1.2, 0.8);
+}
+button:active::before {
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-radius: 0.2em;
+  top: -10px;
+  border-left-color: cornflowerblue;
+}
+button:active::after {
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-radius: 0.2em;
+  top: -10px;
+  border-right-color: cornflowerblue;
+}
+</style>
+
+</head>
+<body>
+
+	
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="col-md-12 mb-3">
+	<a href="oxygen.php"><button >OXYGEN</button></a>
+  <a href="plasma.php"><button>PLASMA</button></a>
+  <a href="covidbeds.php"><button>COVID BEDS</button></a>
+  <a href="covidtest.php"><button>COVID TESTS</button></a>
+  <a href="doctors.php"><button>DOCTORS</button></a>
+  <a href="medicals.php"> <button>MEDICALS</button></a>
+  <a href="ambulance.php"><button>AMBULANCES</button></a>
+  <a href="sanitization.php"><button>SANITIZATION</button></a>
+    
+                    
+                </div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
